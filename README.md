@@ -161,7 +161,7 @@ Provide a path to the php executable file (php-cgi.exe)).
   -On the right, click “Browse *:80”
   
 <p>
-<img src="https://imgur.com/Yw55d5b.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/Yw55d5b.png" height="70%" width="70%" alt="ISS site"/>
 </p>
 <p>
   

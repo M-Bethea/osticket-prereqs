@@ -65,17 +65,62 @@ World Wide Web Services -> Application Development Features ->
 <p>
 <img src="https://github.com/M-Bethea/osticket-prereqs/assets/139162550/98279b81-1b8e-4b8c-b6b6-9410db315dbd" height="80%" width="80%" alt="Create a VM"/>
 </p>
+C. Check if it's working by typing the following IP address into the browser: 127.0.0.1
+<p>
+<img src="https://github.com/M-Bethea/osticket-prereqs/assets/139162550/417dfb31-1f1d-43d8-b0dc-4eb4ee08d4f7" height="80%" width="80%" alt="Create a VM"/>
+</p>
+</p>
+
+<br />
+
+<p>
+3. From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+
+A. From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+i. Create the directory C:\PHP in your files: 
+<p>
+<img src="https://github.com/M-Bethea/osticket-prereqs/assets/139162550/02283963-9182-4c4a-827e-031947aeff68" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+B. From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
+i. !!! Attention!!! If you get a caution sign from the download, click on it -> Keep -> Keep anyway
+
+C. From the Installation Files, download and install VC_redist.x86.exe.
+
+D. From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+Typical Setup -> Launch Configuration Wizard (after install) -> Standard Configuration -> (make a password and remember it) -> Execute -> Finish
+<p>
+<img src="https://github.com/M-Bethea/osticket-prereqs/assets/139162550/3a4e2053-0604-40bb-8dbe-5bd07a25f58a" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://github.com/M-Bethea/osticket-prereqs/assets/139162550/d6674cc3-5c7d-495e-8dce-d9ae533d36b3" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://github.com/M-Bethea/osticket-prereqs/assets/139162550/6569d389-b4dc-4dde-96cf-f60c0421ab7c" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://github.com/M-Bethea/osticket-prereqs/assets/139162550/62c9f7fb-d9b0-486d-b246-21c26179922c" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
 <br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-3. From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
 
-From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
-
-Create the directory C:\PHP
-
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />

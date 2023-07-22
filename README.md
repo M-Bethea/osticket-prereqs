@@ -29,18 +29,28 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+1. Create a Virtual Machine in Azure
+A. Create a Resource Group
+B. Create a Windows 10 Pro Virtual Machine (VM) with 2-4 Virtual CPUs
+ i. Create a name, username, and password (remember the username and password)
+ ii. It will create a new Virtual Network (Vnet)
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://github.com/M-Bethea/osticket-prereqs/assets/139162550/740e9d6d-ca18-40e8-b571-832da69a8c90" height="80%" width="80%" alt="Create a VM"/>
 </p>
 <br />
 
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+2. Open the <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)">Installation Files</a> in the VM
+  A. Righ click start menu -> Run -> Type "control" -> Programs -> Turn Windows Features On or Off
+  B. Install / Enable IIS in Windows WITH:
+CGI and Common HTTP Features
+World Wide Web Services -> Application Development Features ->
+[X] CGI
+[X] Common HTTP Features
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://github.com/M-Bethea/osticket-prereqs/assets/139162550/2b132258-c893-405d-8d05-4f38dcd63c83 height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 

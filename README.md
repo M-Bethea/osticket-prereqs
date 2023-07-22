@@ -97,9 +97,7 @@ Typical Setup -> Launch Configuration Wizard (after install) -> Standard Configu
 <p>
 <img src="https://github.com/M-Bethea/osticket-prereqs/assets/139162550/6569d389-b4dc-4dde-96cf-f60c0421ab7c" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-<img src="https://github.com/M-Bethea/osticket-prereqs/assets/139162550/62c9f7fb-d9b0-486d-b246-21c26179922c" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+</ br>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>

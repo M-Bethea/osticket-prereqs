@@ -100,6 +100,29 @@ Typical Setup -> Launch Configuration Wizard (after install) -> Standard Configu
 </ br>
 
 <p>
+4. Open IIS as an Admin
+A. Register PHP from within IIS: PHP Manager -> Register New PHP Version -> C:\PHP\php-cgi.exe
+i. Reload IIS (Open IIS, Stop and Start the server)
+</p>
+<p>
+<img src="https://github.com/M-Bethea/osticket-prereqs/assets/139162550/7bb2faa2-afa8-4cf0-bb4e-d04b2e3556ef" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+5. Install osTicket v1.15.8
+A. Download osTicket from the Installation Files Folder
+</p>
+</p>
+i. Extract and copy “upload” folder to c:\inetpub\wwwroot
+ii. Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+iii. Reload IIS (Open IIS, Stop and Start the server)
+</p>
+<p>
+<img src="https://github.com/M-Bethea/osticket-prereqs/assets/139162550/8f336a80-29aa-4c4f-809f-907b2a2db62c" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>

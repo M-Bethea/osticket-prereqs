@@ -79,7 +79,7 @@ C. Check if it's working by typing the following IP address into the browser: 12
 &nbsp A. From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi) <br>
 &nbsp &nbsp i. Create the directory C:\PHP in your files: 
 <p>
-<img src="https://github.com/M-Bethea/osticket-prereqs/assets/139162550/02283963-9182-4c4a-827e-031947aeff68" height="60%" width="60%" alt="Download Files"/>
+<img src="https://github.com/M-Bethea/osticket-prereqs/assets/139162550/b5204e78-0fbd-4e38-a399-1da51463f517" height="60%" width="60%" alt="Download Files"/>
 </p>
 <p>
 B. From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP <br>

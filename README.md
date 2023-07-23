@@ -39,7 +39,6 @@ B. Create a Windows 10 Pro Virtual Machine (VM) with 2-4 Virtual CPUs
 </p>
 <br />
 
-
 <p>
 2. Open the <a href="https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)">Installation Files</a> in the VM
   A. Righ click start menu -> Run -> Type "control" -> Programs -> Turn Windows Features On or Off
@@ -123,10 +122,80 @@ iii. Reload IIS (Open IIS, Stop and Start the server)
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+6. Go to sites -> Default -> osTicket
+A. On the right, click “Browse *:80”
+<p>
+<img src="https://github.com/M-Bethea/osticket-prereqs/assets/139162550/a15d8f6f-8e71-4048-bd3f-5ca1cc1e2b3b" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+B. Some extensions are not enabled
+<p>
+<img src="https://github.com/M-Bethea/osticket-prereqs/assets/139162550/0f4f976c-4175-4867-a24c-6b27cf1ba397" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+C. Go back to IIS, sites -> Default -> osTicket -> Double-click PHP Manager -> Click “Enable or disable an extension”
+i. Enable: php_imap.dll
+ii. Enable: php_intl.dll
+iii. Enable: php_opcache.dll
+<p>
+<img src="https://github.com/M-Bethea/osticket-prereqs/assets/139162550/e31cb337-49d3-47e9-9c3c-9bc2f60cdc33" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://github.com/M-Bethea/osticket-prereqs/assets/139162550/3530d812-9568-4df5-aba0-ed8bfcb44da4" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://github.com/M-Bethea/osticket-prereqs/assets/139162550/2f52385f-9e7b-4185-a4cc-3a9d194ca3a8 " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+iv. Refresh the osTicket site in your browse, observe the changes
+</p>
+<br />
+
+<p>
+7. Rename: ost-config.php
+A. From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+i. To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+B. Assign Permissions: ost-config.php
+i. Properties -> Security -> Advanced -> Disable inheritance -> Remove All
+ii. New Permissions -> Select a Principal -> Everyone -> All
+</p>
+<p>
+<img src="https://github.com/M-Bethea/osticket-prereqs/assets/139162550/b952bedd-b0d0-4096-af23-dae5e70c909e" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+8. Continue Setting up osTicket in the browser (click Continue)
+A. Name Helpdesk
+i. Default email (receives email from customers)
+</p>
+<p>
+<img src="https://github.com/M-Bethea/osticket-prereqs/assets/139162550/ee007ffc-d4ed-473d-95c4-78ff356624a5" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+9. From the Installation Files, download and install HeidiSQL.
+<p>
+<img src="https://github.com/M-Bethea/osticket-prereqs/assets/139162550/9aa2f60a-034d-439d-9970-23906957b7dd" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+A. Open Heidi SQL
+i. Create a new session, root/Password1
+ii. Connect to the session
+iii. Create a database called “osTicket”
+</p>
+<p>
+<img src="https://github.com/M-Bethea/osticket-prereqs/assets/139162550/e2e5c43a-312b-4a4e-85f8-5d9af1908a8b" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+10. Continue Setting up osticket in the browser
+A. MySQL Database: osTicket
+i. MySQL Username: root
+ii. MySQL Password: Password1
+iii. Click “Install Now!”
+</p>
+<p>
+<img src="https://github.com/M-Bethea/osticket-prereqs/assets/139162550/55f7d893-a42a-48a0-b9b1-c9ce1dc96ab3" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
@@ -134,14 +203,21 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Congratulations, hopefully it is installed with no errors!
+Browse to your help desk login page: <a href="http://localhost/osTicket/scp/login.php"></a> 
+
+End Users osTicket URL:
+<a href="http://localhost/osTicket/"></a> 
+</p>
+<p>
+<img src="https://github.com/M-Bethea/osticket-prereqs/assets/139162550/2d3ccbbc-46d9-4b1b-90e9-a5c1288c2d1a" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Clean up
+Delete: C:\inetpub\wwwroot\osTicket\setup
+i. !!! Important !!! ONLY DELETE THE SETUP FOLDER
+Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 </p>
 <br />
